@@ -1,10 +1,7 @@
 import { component$ } from '@builder.io/qwik';
-import { Form, routeAction$ } from '@builder.io/qwik-city';
+import { Form, Link, routeAction$ } from '@builder.io/qwik-city';
 
 export const useLoginAction = routeAction$((values, request) => {
-  console.log(
-    'This is where you would call your login API and redirect to the home page if successful'
-  );
   throw request.redirect(303, '/publisher/marvel');
 });
 
@@ -22,6 +19,10 @@ export default component$(() => {
           Login
         </button>
       </Form>
+      <p>Si no funciona el boton puedes dark click aqui</p>
+      <Link href="/publisher/marvel" class="underline text-cyan-800">
+        Login
+      </Link>
     </main>
   );
 });
