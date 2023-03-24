@@ -1,13 +1,13 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@builder.io/qwik': 0.23.0
-  '@builder.io/qwik-city': 0.6.5
+  '@builder.io/qwik': 0.24.0
+  '@builder.io/qwik-city': 0.7.0
   '@types/eslint': 8.21.2
-  '@types/node': ^18.15.3
+  '@types/node': ^18.15.7
   '@typescript-eslint/eslint-plugin': 5.55.0
   '@typescript-eslint/parser': 5.55.0
-  autoprefixer: ^10.4.13
+  autoprefixer: ^10.4.14
   eslint: 8.36.0
   eslint-plugin-qwik: 0.23.0
   postcss: ^8.4.16
@@ -20,10 +20,10 @@ specifiers:
   vite-tsconfig-paths: 3.5.0
 
 devDependencies:
-  '@builder.io/qwik': 0.23.0_undici@5.21.0
-  '@builder.io/qwik-city': 0.6.5_@builder.io+qwik@0.23.0
+  '@builder.io/qwik': 0.24.0_undici@5.21.0
+  '@builder.io/qwik-city': 0.7.0_@builder.io+qwik@0.24.0
   '@types/eslint': 8.21.2
-  '@types/node': 18.15.5
+  '@types/node': 18.15.7
   '@typescript-eslint/eslint-plugin': 5.55.0_qsnvknysi52qtaxqdyqyohkcku
   '@typescript-eslint/parser': 5.55.0_j4766f7ecgqbon3u7zlxn5zszu
   autoprefixer: 10.4.14_postcss@8.4.21
@@ -34,8 +34,8 @@ devDependencies:
   tailwindcss: 3.2.7_postcss@8.4.21
   typescript: 5.0.2
   undici: 5.21.0
-  vercel: 28.17.0_@types+node@18.15.5
-  vite: 4.2.0_@types+node@18.15.5
+  vercel: 28.17.0_@types+node@18.15.7
+  vite: 4.2.0_@types+node@18.15.7
   vite-tsconfig-paths: 3.5.0_vite@4.2.0
 
 packages:
@@ -1249,13 +1249,13 @@ packages:
       to-fast-properties: 2.0.0
     dev: true
 
-  /@builder.io/qwik-city/0.6.5_@builder.io+qwik@0.23.0:
-    resolution: {integrity: sha512-XGEoF2Q9tBeofjwtqxyZjA+3V50WDJTfhDjlHD1w2ShqyAZOnzxySrgznLfGG86H5YqOPNW9cH5uZ+ZINssYuA==}
+  /@builder.io/qwik-city/0.7.0_@builder.io+qwik@0.24.0:
+    resolution: {integrity: sha512-+P/nLl8tpQVfTGkFybYlag4atUkwXQpsFE+8yAmxAH+lcxHPW3GwtYPS6QwMKkL5dlFM0VML4kKFiQYQ1r7CGw==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     peerDependencies:
       '@builder.io/qwik': '>=0.22.0'
     dependencies:
-      '@builder.io/qwik': 0.23.0_undici@5.21.0
+      '@builder.io/qwik': 0.24.0_undici@5.21.0
       '@mdx-js/mdx': 2.3.0
       '@types/mdx': 2.0.3
       source-map: 0.7.4
@@ -1265,8 +1265,8 @@ packages:
       - supports-color
     dev: true
 
-  /@builder.io/qwik/0.23.0_undici@5.21.0:
-    resolution: {integrity: sha512-srbA4o9KyeGXA0fUibZW7I6iasjYhpBlp1Iq74dLTB4Py66wfazpekZ+qi57XcuSj3cBPf/Rsz/yxvQx5DwM2g==}
+  /@builder.io/qwik/0.24.0_undici@5.21.0:
+    resolution: {integrity: sha512-IOlcV1g37MJpFovbNLgcEoEBIOkeGaAvTqi2xdM4/pR0VmGubLFBpgsdQ8kUV6rp8ON7GmAZP0tOsxOAyYRt8g==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     hasBin: true
     peerDependencies:
@@ -2183,7 +2183,7 @@ packages:
     dependencies:
       '@types/http-cache-semantics': 4.0.1
       '@types/keyv': 3.1.4
-      '@types/node': 18.15.5
+      '@types/node': 18.15.7
       '@types/responselike': 1.0.0
     dev: true
 
@@ -2224,7 +2224,7 @@ packages:
     resolution: {integrity: sha512-ZUxbzKl0IfJILTS6t7ip5fQQM/J3TJYubDm3nMbgubNNYS62eXeUpoLUC8/7fJNiFYHTrGPQn7hspDUzIHX3UA==}
     dependencies:
       '@types/minimatch': 5.1.2
-      '@types/node': 18.15.5
+      '@types/node': 18.15.7
     dev: true
 
   /@types/hast/2.3.4:
@@ -2244,7 +2244,7 @@ packages:
   /@types/keyv/3.1.4:
     resolution: {integrity: sha512-BQ5aZNSCpj7D6K2ksrRCTmKRLEpnPvWDiLPfoGyhZ++8YtiK9d/3DBKPJgry359X/P1PfruyYwvnvwFjuEiEIg==}
     dependencies:
-      '@types/node': 18.15.5
+      '@types/node': 18.15.7
     dev: true
 
   /@types/mdast/3.0.11:
@@ -2273,8 +2273,8 @@ packages:
     resolution: {integrity: sha512-qelS/Ra6sacc4loe/3MSjXNL1dNQ/GjxNHVzuChwMfmk7HuycRLVQN2qNY3XahK+fZc5E2szqQSKUyAF0E+2bg==}
     dev: true
 
-  /@types/node/18.15.5:
-    resolution: {integrity: sha512-Ark2WDjjZO7GmvsyFFf81MXuGTA/d6oP38anyxWOL6EREyBKAxKoFHwBhaZxCfLRLpO8JgVXwqOwSwa7jRcjew==}
+  /@types/node/18.15.7:
+    resolution: {integrity: sha512-LFmUbFunqmBn26wJZgZPYZPrDR1RwGOu2v79Mgcka1ndO6V0/cwjivPTc4yoK6n9kmw4/ls1r8cLrvh2iMibFA==}
     dev: true
 
   /@types/prop-types/15.7.5:
@@ -2292,7 +2292,7 @@ packages:
   /@types/responselike/1.0.0:
     resolution: {integrity: sha512-85Y2BjiufFzaMIlvJDvTTB8Fxl2xfLo4HgmHzVBz08w4wDePCTjYw66PdrolO0kzli3yam/YCgRufyo1DdQVTA==}
     dependencies:
-      '@types/node': 18.15.5
+      '@types/node': 18.15.7
     dev: true
 
   /@types/scheduler/0.16.2:
@@ -2461,7 +2461,7 @@ packages:
       outdent: 0.8.0
     dev: true
 
-  /@vanilla-extract/integration/6.2.1_@types+node@18.15.5:
+  /@vanilla-extract/integration/6.2.1_@types+node@18.15.7:
     resolution: {integrity: sha512-+xYJz07G7TFAMZGrOqArOsURG+xcYvqctujEkANjw2McCBvGEK505RxQqOuNiA9Mi9hgGdNp2JedSa94f3eoLg==}
     dependencies:
       '@babel/core': 7.21.3
@@ -2475,8 +2475,8 @@ packages:
       lodash: 4.17.21
       mlly: 1.2.0
       outdent: 0.8.0
-      vite: 4.2.0_@types+node@18.15.5
-      vite-node: 0.28.5_@types+node@18.15.5
+      vite: 4.2.0_@types+node@18.15.7
+      vite-node: 0.28.5_@types+node@18.15.7
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -2590,10 +2590,10 @@ packages:
       - supports-color
     dev: true
 
-  /@vercel/remix-builder/1.7.0_@types+node@18.15.5:
+  /@vercel/remix-builder/1.7.0_@types+node@18.15.7:
     resolution: {integrity: sha512-7y4qJ4axKMt04mKtr4SwoNf/gmj0xncVKEVsFNgF7LnakoyHRc7aONyJnhKyWC3vqrl0I/Kis+frnqE2ZeivFw==}
     dependencies:
-      '@remix-run/dev': /@vercel/remix-run-dev/1.14.2_@types+node@18.15.5
+      '@remix-run/dev': /@vercel/remix-run-dev/1.14.2_@types+node@18.15.7
       '@vercel/build-utils': 6.4.0
       '@vercel/nft': 0.22.5
       '@vercel/static-config': 2.0.14
@@ -2615,7 +2615,7 @@ packages:
       - utf-8-validate
     dev: true
 
-  /@vercel/remix-run-dev/1.14.2_@types+node@18.15.5:
+  /@vercel/remix-run-dev/1.14.2_@types+node@18.15.7:
     resolution: {integrity: sha512-lsJFO2pnQoHYe2gcvj/VY8c0lVHZFnoEfMB3w+CQU8xql2hpneK2XrbKT/mHm+HDeaaJPT+mxAf7jpbFXeZhWA==}
     engines: {node: '>=14'}
     hasBin: true
@@ -2637,7 +2637,7 @@ packages:
       '@esbuild-plugins/node-modules-polyfill': 0.1.4_esbuild@0.16.3
       '@npmcli/package-json': 2.0.0
       '@remix-run/server-runtime': 1.14.2
-      '@vanilla-extract/integration': 6.2.1_@types+node@18.15.5
+      '@vanilla-extract/integration': 6.2.1_@types+node@18.15.7
       arg: 5.0.2
       cacache: 15.3.0
       chalk: 4.1.2
@@ -7694,7 +7694,7 @@ packages:
     engines: {node: '>= 0.8'}
     dev: true
 
-  /vercel/28.17.0_@types+node@18.15.5:
+  /vercel/28.17.0_@types+node@18.15.7:
     resolution: {integrity: sha512-EekRftqZbXBmOwvKKDbBkiy8+7I8xp1aZfXA3PAqLRlmbQqPwRmhYDasDmWj7YNP1cSZktPv++PKH/RjzJleEg==}
     engines: {node: '>= 14'}
     hasBin: true
@@ -7707,7 +7707,7 @@ packages:
       '@vercel/node': 2.9.13
       '@vercel/python': 3.1.54
       '@vercel/redwood': 1.1.10
-      '@vercel/remix-builder': 1.7.0_@types+node@18.15.5
+      '@vercel/remix-builder': 1.7.0_@types+node@18.15.7
       '@vercel/ruby': 1.3.71
       '@vercel/static-build': 1.3.17
     transitivePeerDependencies:
@@ -7751,7 +7751,7 @@ packages:
       vfile-message: 3.1.4
     dev: true
 
-  /vite-node/0.28.5_@types+node@18.15.5:
+  /vite-node/0.28.5_@types+node@18.15.7:
     resolution: {integrity: sha512-LmXb9saMGlrMZbXTvOveJKwMTBTNUH66c8rJnQ0ZPNX+myPEol64+szRzXtV5ORb0Hb/91yq+/D3oERoyAt6LA==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
@@ -7763,7 +7763,7 @@ packages:
       picocolors: 1.0.0
       source-map: 0.6.1
       source-map-support: 0.5.21
-      vite: 4.2.0_@types+node@18.15.5
+      vite: 4.2.0_@types+node@18.15.7
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -7783,12 +7783,12 @@ packages:
       globrex: 0.1.2
       recrawl-sync: 2.2.3
       tsconfig-paths: 4.1.2
-      vite: 4.2.0_@types+node@18.15.5
+      vite: 4.2.0_@types+node@18.15.7
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite/4.2.0_@types+node@18.15.5:
+  /vite/4.2.0_@types+node@18.15.7:
     resolution: {integrity: sha512-AbDTyzzwuKoRtMIRLGNxhLRuv1FpRgdIw+1y6AQG73Q5+vtecmvzKo/yk8X/vrHDpETRTx01ABijqUHIzBXi0g==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -7813,7 +7813,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 18.15.5
+      '@types/node': 18.15.7
       esbuild: 0.17.12
       postcss: 8.4.21
       resolve: 1.22.1
